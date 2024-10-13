@@ -31,3 +31,23 @@ The Tendable Questionnaire is a command-line Ruby application that collects user
    ```bash
    git clone https://github.com/01aadesh/tendable-questionnaire.git
    cd tendable-questionnaire
+
+## Test
+
+```sh
+rspec spec/questionnaire_spec.rb
+```
+
+## Running with Docker
+
+1. Build the Docker image:
+
+   ```sh
+   docker build -t tendable-questionnaire .
+   ```
+2. Run the Docker container:
+
+   ```sh
+   docker run -it --rm tendable-questionnaire
+   ```
+
